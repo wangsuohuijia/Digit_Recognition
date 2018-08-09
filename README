@@ -1,3 +1,13 @@
+
+实验：
+利用MLP,SVM,CNN 对 MNIST 数据集进行手写数字识别测试
+
+代码来源：
+https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py
+https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py
+http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html#sphx-glr-auto-examples-svmplot-rbf-parameters-py
+
+
 说明：
 dir_info.py 定义保存数据和结果的目录，并创建
 call_back_func.py 定义一个回调函数类，在训练到一定时候保存训练，验证和测试集的loss和acc
