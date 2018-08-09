@@ -1,0 +1,11 @@
+说明：
+dir_info.py 定义保存数据和结果的目录，并创建
+call_back_func.py 定义一个回调函数类，在训练到一定时候保存训练，验证和测试集的loss和acc
+keras_mnist_cnn.py 定义卷积神经网络模型，然后训练，验证和测试，最终输出结果
+keras_mnist_mlp.py 定义MLP多层神经网络模型，然后训练，验证和测试，最终输出结果
+svm_modeling.py 训练SVM模型，进行超参的grid search，并输出结果
+config.py 定义了一些神经网络训练，验证和测试通用的参数
+
+目录：
+data保存MNIST数据
+results保存结果
